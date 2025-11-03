@@ -69,7 +69,7 @@ O sucesso do ORION reforça a abordagem deste projeto: **a IA é fundamental par
 
 ---
 
-## ⚙️ Como Executar o Projeto
+ Como Executar o Projeto
 
 1.  **Clone o Repositório:** Obtenha o arquivo `rota_inteligente.py`.
 2.  **Instale as Dependências:**
