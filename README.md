@@ -26,9 +26,9 @@ A área de entrega (cidade) é modelada como um **Grafo**, onde os pontos de ent
 * **Finalidade:** Encontrar a **melhor sequência de paradas** dentro de cada cluster, minimizando a distância total. Este é um sub-problema do **Caixeiro Viajante (TSP)**.
 * **Estratégia:** O entregador sai da Sede e, em cada ponto, escolhe o pedido **não visitado** que está **mais próximo** (guloso), retornando à Sede no final.
 
- Conexão com o Algoritmo A-Estrela ($A^{*}$)
+ Conexão com o Algoritmo A-Estrela (A*)
 
-Em um sistema de roteirização real, o algoritmo **$A$-Estrela ($A^{*}$)** seria o responsável por encontrar o **caminho mais curto real** (por ruas) entre uma parada e a próxima, navegando no grafo da cidade. O uso da distância Euclidiana em nosso código simula a função de custo que o $A^{*}$ utilizaria.
+Em um sistema de roteirização real, o algoritmo A-Estrela (A*) seria o responsável por encontrar o **caminho mais curto real** (por ruas) entre uma parada e a próxima, navegando no grafo da cidade. O uso da distância Euclidiana em nosso código simula a função de custo que o A* utilizaria.
 
 ---
 
