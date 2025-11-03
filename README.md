@@ -1,6 +1,6 @@
-# 📦 Rota Inteligente: Otimização de Entregas com K-Means e Heurística TSP
+ Rota Inteligente: Otimização de Entregas com K-Means e Heurística TSP
 
-## 📝 Descrição do Projeto
+ Descrição do Projeto
 
 Este projeto implementa uma solução de **Inteligência Artificial** e otimização para resolver o problema logístico da empresa "Sabor Express". Nosso objetivo é transformar rotas manuais e ineficientes em caminhos otimizados, reduzindo custos de combustível e tempo de entrega.
 
@@ -11,7 +11,7 @@ A solução é desenvolvida em Python e baseada em um modelo de duas etapas esse
 
 ---
 
-## 🎯 Abordagem Técnica e Algoritmos
+ Abordagem Técnica e Algoritmos
 
 A área de entrega (cidade) é modelada como um **Grafo**, onde os pontos de entrega e a sede são os **nós**, e as conexões entre eles são as arestas.
 
@@ -26,13 +26,13 @@ A área de entrega (cidade) é modelada como um **Grafo**, onde os pontos de ent
 * **Finalidade:** Encontrar a **melhor sequência de paradas** dentro de cada cluster, minimizando a distância total. Este é um sub-problema do **Caixeiro Viajante (TSP)**.
 * **Estratégia:** O entregador sai da Sede e, em cada ponto, escolhe o pedido **não visitado** que está **mais próximo** (guloso), retornando à Sede no final.
 
-### 💡 Conexão com o Algoritmo A-Estrela ($A^{*}$)
+ Conexão com o Algoritmo A-Estrela ($A^{*}$)
 
 Em um sistema de roteirização real, o algoritmo **$A$-Estrela ($A^{*}$)** seria o responsável por encontrar o **caminho mais curto real** (por ruas) entre uma parada e a próxima, navegando no grafo da cidade. O uso da distância Euclidiana em nosso código simula a função de custo que o $A^{*}$ utilizaria.
 
 ---
 
-## 📊 Resultados e Análise
+ Resultados e Análise
 
 O código rodou uma simulação com 25 pedidos (coordenadas geográficas simuladas) e 4 entregadores, partindo de uma Sede centralizada.
 
@@ -59,7 +59,7 @@ A tabela abaixo mostra a eficiência da otimização para cada rota (Entregador)
 
 ---
 
-## 🔍 Pesquisa: Otimização em Escala (UPS ORION)
+ Pesquisa: Otimização em Escala (UPS ORION)
 
 A solução da "Sabor Express" utiliza princípios semelhantes aos encontrados em grandes sistemas logísticos.
 
@@ -81,4 +81,4 @@ O sucesso do ORION reforça a abordagem deste projeto: **a IA é fundamental par
     python main.py
     ```
 
-**🎥 Vídeo Pitch:** Assista à explicação detalhada e a demonstração dos resultados aqui: **[INSERIR LINK DO SEU VÍDEO NO YOUTUBE AQUI]**
+ Vídeo Pitch:** Assista à explicação detalhada e a demonstração dos resultados aqui: **[INSERIR LINK DO SEU VÍDEO NO YOUTUBE AQUI]**
