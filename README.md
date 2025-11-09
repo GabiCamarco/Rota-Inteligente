@@ -81,4 +81,4 @@ O sucesso do ORION reforça a abordagem deste projeto: **a IA é fundamental par
     python main.py
     ```
 
- Vídeo Pitch:** Assista à explicação detalhada e a demonstração dos resultados aqui: **[INSERIR LINK DO SEU VÍDEO NO YOUTUBE AQUI]**
+ Vídeo Pitch:** Assista à explicação detalhada e a demonstração dos resultados aqui: https://youtu.be/MJ6Fgh0d57o 
